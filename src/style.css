@@ -1,0 +1,71 @@
+.gplay-bg { 
+  /*  background-image: url(../src/img/gplay-logo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 155% auto;
+    background-position-y: -6vw;
+    background-position: center;
+    background-position-y: -500px;*/
+}
+
+
+.bg-light {
+    background-image: url(../src/img/gplay-logo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position-x: 120%;
+    background-position-y: 100%;
+    background-position:left;
+    
+
+    
+}
+
+.card-largura {
+    max-width: 18rem;
+}
+
+.imagem-carrosel {
+    object-fit: cover;
+    object-position: 0 45%;
+    height: 400px;
+}
+
+.imagem-carrosel2 {
+    object-fit: cover;
+    /*object-position: 0 45%;*/
+    height: 400px; 
+}
+
+.botao-cor {
+    background-color: rgb(182, 12, 12);
+    color: white;
+}
+
+.borda-card {
+    border-color: rgb(182, 12, 12);
+}
+
+.lorem-font {
+    font-family:;
+    color: chocolate;
+    
+}
+/* tirar duvida sobre porque o texto não está formatando a cor e porque o uso do (color: chocolate"!important";) é perigoso ". OBS:foi possível corrigir o !important do bootstrap com uso de uma "id".*/
+#lorem-font {
+    color: darkgreen;
+    font-family:;
+    color: chocolate!important;
+    font-size: 25px;  
+}
+
+.card-position-img {
+    object-fit: cover;
+    /*object-position: 0 45%;*/
+    height: 200px;
+}
+
+.card-body {
+    text-align: center;
+}
