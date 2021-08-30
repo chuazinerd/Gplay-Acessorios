@@ -53,6 +53,10 @@
     color: white;
 }
 
+#botao-cor-preco {
+    color: white;
+}
+
 .borda-card {
     border-color: rgb(182, 12, 12);
 }
