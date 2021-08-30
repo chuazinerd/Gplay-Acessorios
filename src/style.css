@@ -57,15 +57,16 @@
     border-color: rgb(182, 12, 12);
 }
 
+.card-size {
+    max-width: 300px
+}
+
 .lorem-font {
-    font-family:;
     color: chocolate;
     
 }
 /* tirar duvida sobre porque o texto não está formatando a cor e porque o uso do (color: chocolate"!important";) é perigoso ". OBS:foi possível corrigir o !important do bootstrap com uso de uma "id".*/
 #lorem-font {
-    color: darkgreen;
-    font-family:;
     color: rgb(179, 109, 52)!important;
     font-size: 25px;  
 }
@@ -73,7 +74,10 @@
 .card-position-img {
     object-fit: cover;
     /*object-position: 0 45%;*/
-    height: 200px;
+    min-width: 200px;
+    max-width: 350px;
+    min-height: 200px;
+    max-height: 230px;
 }
 
 .card-body {
